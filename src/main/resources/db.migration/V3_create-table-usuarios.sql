@@ -1,0 +1,5 @@
+CREATE TABLE usuarios (
+    id BIGSERIAL PRIMARY KEY,
+    user VARCHAR(50) NOT NULL UNIQUE,
+    pass VARCHAR(100) NOT NULL
+);
